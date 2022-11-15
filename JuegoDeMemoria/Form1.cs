@@ -91,6 +91,7 @@ namespace JuegoDeMemoria
             CartaActual = Convert.ToInt32(CartasRevueltas[Convert.ToInt32(cartaSeleccionadaUsuario.Name) - 1]);
             cartaSeleccionadaUsuario.Image = RecuperarImagen(CartaActual);
             CartasSeleccionadas.Add(cartaSeleccionadaUsuario);
+            
             //si realizó dos veces el evento
 
             if(CartasSeleccionadas.Count == 2)
